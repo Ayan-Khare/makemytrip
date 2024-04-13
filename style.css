@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.img{
+    height: 90vh;
+    background-image: url("//imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/bg2.jpg");
+}
+.logo img{
+    width: 10vw;
+    margin-left: 8vw;
+    margin-top: 5px;
+}
+.above{
+    display: inline-flex;
+}
+.aboveblocks{
+    background-image: url("//imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/landingSprite@26x.png");
+    background-position: -78px -517px;
+    height: 33px;
+    width: 32px;
+}
+.block{
+    width: 88vw;
+    height: 55vh;
+    position: relative;
+    top: 16vh;
+    border-radius: 5px;
+    margin: auto;
+    background-color: white;
+}
+.smallblock{
+    display: flex;
+    width: 60vw;
+    border-radius: 5px;
+    height: 15vh;
+    box-shadow: 0cqh;
+    background-color: white;
+    position: relative;
+    box-shadow: 3px 0px 8px;
+    top: -7.5vh;
+    left: 10vw;
+}
+.smallerblocks{
+    width:6.666vw;
+    height: 5vw;
+}
+.smallerblocks img{
+    width:6.666vw;
+    height: 5vw;
+
+}
+.s1{
+    background-image: url("https://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/B2CHeaderSprite.png");
+    background-size: 315px 485px;
+    background-position: 13px -40px;
+    height: 3.8vw;
+}
+.s2{
+    position: relative;
+    bottom: -10px;
+}
+.s3{
+    background-image: url("https://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/B2CHeaderSprite.png");
+    background-size: 330px 500px;
+    background-position: -60px -50px;
+    margin-top: 8px;
+    width: 5vw;
+    height: 4vw;
+}
+.s5{
+    background-image: url("https://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/B2CHeaderSprite.png");
+    background-size: 330px 500px;
+    background-position: -60px -148px;
+    margin-top: 8px;
+    width: 5vw;
+    height: 4vw;
+}
+.smallerblocks{
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 17px;
+    position: relative;
+}
+.radios{
+    position: relative;
+    top:-50px;
+    display: flex;
+    gap: 40px; 
+    margin: 20px;
+    margin-left: 40px;
+}
+.radios span{
+    position: relative;
+    right: -430px;
+}
+.mainblock{
+    font-family: 'Mukta', 'Lato', sans-serif;
+    display: flex;
+    width: 82vw;
+    height: 20vh;
+    margin: auto;
+    border-radius: 20px;
+    position: relative;
+    top: -55px;
+}
+.mainblocks{
+    width: 15.4vw;
+    border: 1px solid rgb(240, 236, 236);
+}
+.m1{
+    width: 28.8vw;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.m2{
+    width: 28.8vw;
+}
+.m1 p{
+    margin: 10px;
+}
+.m1 .fir{
+    /* margin: 10px; */
+    font-family: 'Mukta', 'Lato', sans-serif;
+    line-height: 36px;
+    margin-left: 18px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.sec{
+    font-family: 'Mukta', 'Lato', sans-serif;
+    font-size: 14px;
+    margin-left: 18px;
+}
+.m2{
+    padding-left: 40px;
+}
+.m2 p{
+    margin-top: 10px;
+}
+.thi{
+    font-family: 'Mukta', 'Lato', sans-serif;
+    line-height: 36px;
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.big{
+    font-family: 'Mukta', 'Lato', sans-serif;
+    line-height: 36px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.five{
+    margin-top: 7px;
+}
+.m3{
+    padding-left: 15px;
+}
+.dropdown{
+    border: 0;
+    color: blue;
+}
+.m3 p{
+    margin-top: 10px;
+}
+.m4 {
+    padding-left: 15px;
+}
+.upp{
+    margin-top: 7px;
+}
+.m4 p{
+    margin-top: 10px;
+}
+.m5{
+    width: 23vw;
+    padding-left: 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.m5 p{
+    margin-top: 10px;
+}
+.four{
+    font-family: 'Mukta', 'Lato', sans-serif;
+    margin-top: 5px;
+    font-size: 14px;
+}
+.final{
+    display: flex;
+    gap: 8px;
+    font-family: 'Mukta', 'Lato', sans-serif;
+    width: 69vw;
+    height: 10vh;
+    position: relative;
+    top: -30px;
+    left: 40px;
+}
+.x1{
+    width: 150px;
+}
+.finals{
+    gap: 5px;
+}
+.f1{
+    background-image: linear-gradient(to right, rgb(67, 225, 168), rgb(33, 147, 147));
+    font-weight: 800;
+    line-height: 22px;
+    border-radius: 8px;
+    text-align: center;
+    width: 140px;
+    font-size: 14px;
+    color: aliceblue;
+}
+.orad{
+    borderWidth: 2px;
+    height: 16px;
+    width: 16px;
+    borderColor: #4a4a4a;
+}
+.e{
+    width: 122px;
+    border: 1px solid rgb(170, 165, 165);
+    border-radius: 5px;
+    padding: 10px;
+}
+.this{
+    margin-left: 24px;
+    color: rgb(221, 221, 200);
+}
+.f2{
+    font-weight: 550;
+    font-size: 14px;
+}
+.this1{
+    font-size: 12px;
+    padding-left: 22px;
+    color: rgb(221, 221, 200);
+}
+.x3{
+    width: 188px;
+}
+.x4{
+    width: 180px;
+}
